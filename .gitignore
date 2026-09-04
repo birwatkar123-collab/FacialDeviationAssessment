@@ -1,0 +1,34 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Kotlin
+.kotlin/
+
+# Local configuration files (machine-specific paths)
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Heap dumps / temporary files
+*.hprof
+*.log
+*.tmp
+.DS_Store
+
+# Android signing / generated outputs (do not commit APKs or secrets)
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# OS
+Thumbs.db
